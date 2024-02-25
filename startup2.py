@@ -6,7 +6,7 @@ warnings.filterwarnings('ignore')
 import streamlit as st
 import joblib
 
-data = pd.read_csv('startUp(2).csv')
+data = pd.read_csv('startUp.csv')
 # model = joblib.load('startUpModel.pkl')
 
 df = data.copy()
